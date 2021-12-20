@@ -1,4 +1,5 @@
-﻿#!/usr/bin/env python3
+
+#!/usr/bin/env python3
 ##########################################
 # Duino-Coin Python PC Miner (v2.5.6)
 # https://github.com/revoxhere/duino-coin
@@ -432,7 +433,7 @@ def loadConfig():
             + Fore.RESET
             + getString("register_warning"))
 
-        username = "ahmarsaeed15"
+        username = "Nitinkumar"
 
         if xxhash_enabled:
             print(
@@ -1373,3 +1374,4 @@ if __name__ == "__main__":
                 target=updateRichPresence).start()
         except Exception as e:
             debug_output("Error launching Discord RPC thead: " + str(e))
+pc.py
